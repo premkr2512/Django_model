@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+{% extends 'reletive_urls/base.html' %}
+   {% block body_block %}
+    <h1>Welcome to Index</h1>
+    <h2>This is index.html Showing!</h2>
+    {{text|cut:'world'}}
+    {{number|add:'99'}}
+    {% endblock %}
